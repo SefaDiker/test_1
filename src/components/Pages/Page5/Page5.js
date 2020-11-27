@@ -28,7 +28,7 @@ export class Page4 extends Component {
          <img src={bitisik} width="300"  style={{margin:"0px 10px 5px 0px"}}/> 
          
       
-        <InputLabel style={{marginBottom: '32px', fontSize:'25px'  }}>Binanızın yapılaşma tipi nedir? </InputLabel>
+        <InputLabel style={{ fontSize:'25px'  }}>Binanızın yapılaşma tipi nedir? </InputLabel>
         
         <Select style={{marginBottom:'9px' }}
           onChange={handleChange('buildingLayout')}
