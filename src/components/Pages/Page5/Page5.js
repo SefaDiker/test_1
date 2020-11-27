@@ -24,13 +24,13 @@ export class Page4 extends Component {
       
       
       <div className="Page3">
-         <img src={ayrik} width="300" style={{margin:"0px 10px 5px 0px"}} />
-         <img src={bitisik} width="300"  style={{margin:"0px 10px 5px 0px"}}/> 
+         <img src={ayrik} width="270" style={{margin:"0px 10px 5px 0px"}} />
+         <img src={bitisik} width="270"  style={{margin:"0px 10px 5px 0px"}}/> 
          
       
-        <InputLabel style={{ fontSize:'25px'  }}>Binanızın yapılaşma tipi nedir? </InputLabel>
+        <InputLabel style={{ fontSize:'20px'  }}>Binanızın yapılaşma tipi nedir? </InputLabel>
         
-        <Select style={{marginBottom:'9px' }}
+        <Select style={{marginBottom:'8px' }}
           onChange={handleChange('buildingLayout')}
           defaultValue={values.buildingLayout}
           fullWidth
