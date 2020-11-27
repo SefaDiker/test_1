@@ -1,0 +1,16 @@
+.Page3{
+    width: 90%;
+    
+    padding: 10px;  
+    
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+ 
+}
+
+.Page3 button{
+
+    padding-top: 12px;
+}

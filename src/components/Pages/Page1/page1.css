@@ -1,0 +1,71 @@
+
+
+.Page1{
+    width: 90%;
+    
+    padding: 10px;  
+   
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+ 
+}
+
+
+
+
+.profileImageContainer{
+    width: 35%;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.profileImageContainer img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+.cardBody{
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+    padding-bottom: px;
+}
+
+.personalBio{
+    
+    font-size: 1vmax;
+    color: rgb(16, 16, 16) ;
+    font-family:  BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+    
+}
+.recentPosts{
+    padding: 20px 0;
+    margin: auto;
+    width: 90%;
+    
+}
+.recentPost{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    
+}
+.recentPost h3{
+   
+    color: rgb(12, 12, 12) ;
+    letter-spacing: 1px;
+    font-size: 0.9vmax;
+    font-weight: 200;
+    margin: 0;
+    
+}
+
+
+.recentPost span{
+    
+    font-size: 0.6vmax;
+    font-weight: 400;
+    color: rgb(12, 12, 12) ;
+}
