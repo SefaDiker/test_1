@@ -24,8 +24,8 @@ export class Page4 extends Component {
       
       
       <div className="Page3">
-         <img src={ayrik} width="450" style={{margin:"0px 10px 5px 0px"}} />
-         <img src={bitisik} width="450"  style={{margin:"0px 10px 5px 0px"}}/> 
+         <img src={ayrik} width="360" style={{margin:"0px 10px 5px 0px"}} />
+         <img src={bitisik} width="360"  style={{margin:"0px 10px 5px 0px"}}/> 
          
       
         <InputLabel style={{marginBottom: '32px', fontSize:'25px'  }}>Binanızın yapılaşma tipi nedir? </InputLabel>
