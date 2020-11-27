@@ -3,7 +3,11 @@
   "name": "hello-world",
   "version": "0.1.0",
   "private": true,
-  "dependencies": { 
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-favicon": "^2.0.1",
+    "path": "^0.12.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-number-format": "^4.4.1",
